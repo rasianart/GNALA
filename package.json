@@ -1,0 +1,30 @@
+{
+  "name": "pull-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "npm install && node --use_strict app.js",
+    "start": "node --use_strict app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MKwenhua/pull-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MKwenhua/pull-demo/issues"
+  },
+  "homepage": "https://github.com/MKwenhua/pull-demo#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "q": "^1.4.1",
+    "request": "^2.79.0",
+    "xml2js": "^0.4.17"
+  }
+}
