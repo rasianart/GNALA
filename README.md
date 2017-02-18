@@ -1,6 +1,6 @@
 GNALA
 
-<strong>Quick Start:</strong> 
+<strong>Setup:</strong> 
 Clone repository
 Terminal command - ‘npm run setup’ 
 
