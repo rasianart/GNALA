@@ -10,4 +10,6 @@ Beginning with language/text, visual content is then generated. The visual resul
 
 There is a beauty in translation, a witnessing of the remaining fragments through their absence, or re-imagined forms.
 
+![alt text](https://github.com/rasianart/FriendFinder/blob/master/app/public/images/FAN.png)
+
 Patrick Segura, Philip Montegna, Thomas Rosenberg, Sven Seidel
