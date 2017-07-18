@@ -1,9 +1,9 @@
 const express      = require('express');
 const cookieParser = require('cookie-parser');
 const fs           = require('fs');
-const ejs          = require('ejs'); 
+const ejs          = require('ejs');
 const app          = new express();
-const bodyParser   = require('body-parser'); 
+const bodyParser   = require('body-parser');
 const http         = require('http');
 const path         = require('path');
 const env          = process.env;
@@ -28,9 +28,9 @@ app.get('/old', (req,res) => {
 
 app.post('/storeimage', jsonParser,(req,res) => {
 	storeImageLocally(req.body.imgSrc, res);
-	
+
 });
 
-let server = app.listen(env.NODE_PORT || 8000, env.NODE_IP || 'localhost', () => {
+let server = app.listen(process.env.PORT || env.NODE_PORT || 8000, env.NODE_IP || 'localhost', () => {
 	console.log('At the URL: http://localhost:8000');
 })
